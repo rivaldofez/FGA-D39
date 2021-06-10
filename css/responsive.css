@@ -1,0 +1,49 @@
+@media (max-width: 1100px) {
+  header {
+    max-width: 1100px;
+  }
+  .home-info {
+    height: 400px;
+  }
+  .home-info .info-content h2 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+  .home-info {
+    height: 100%;
+  }
+  .info-img {
+    display: none;
+  }
+  .home-info .info-content {
+    display: inline-block;
+    width: 100%;
+  }
+  .home-info .info-content h2 {
+    margin-top: 0;
+  }
+  .service-info {
+    height: 100%;
+  }
+  .service-items {
+    flex-direction: column;
+  }
+  .service-items p {
+    margin-bottom: 30px;
+  }
+  header .navbar {
+    padding: 20px 10px;
+  }
+  header .navbar a {
+    margin-right: 0;
+  }
+  .btn-light {
+    margin-bottom: 10px;
+  }
+}
